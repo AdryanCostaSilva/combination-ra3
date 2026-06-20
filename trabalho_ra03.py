@@ -1,6 +1,8 @@
+from itertools import combinations
+
 # Geração das combinações
 def gerar_combinacoes(universo, numElementos):
-    return
+    return list(combinations(range(1, universo + 1), numElementos))
 
 # Cobertura de n elementos
 def cobertura(fonte, alvoCobertura): # alvoCobertura = s14, s13, s12 ou s11
