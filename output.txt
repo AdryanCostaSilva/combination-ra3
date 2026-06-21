@@ -1,0 +1,245 @@
+============================================================
+  PROGRAMA 1 -- Geracao de S15
+============================================================
+  |S15| = 3,268,760 combinacoes (0.1s)
+  Pre-computando cache de bits... OK (0.3s)
+
+============================================================
+  PROGRAMA 2 -- Cobertura de 14 elementos
+============================================================
+  |S_14| = C(25,14) = 4,457,400 alvos
+  Cada X em S15 cobre C(15,14) = 15 alvos
+  Limite inferior teorico: ceil(4,457,400/15) = 297,160
+  Bits desligados por submascara: 1
+  Gerando alvos... OK (0.4s)
+  Inicializando heap (3,268,760 candidatos)...
+  Selecao gulosa...
+
+    |SB|=    29,716 | cobertos= 10.00% | rescores=       703,716 | t=1s
+    |SB|=    59,432 | cobertos= 20.00% | rescores=     1,573,767 | t=2s
+    |SB|=    89,148 | cobertos= 30.00% | rescores=     2,658,772 | t=3s
+    |SB|=   118,864 | cobertos= 39.58% | rescores=     3,960,835 | t=4s
+    |SB|=   148,580 | cobertos= 48.03% | rescores=     5,377,558 | t=6s
+    |SB|=   178,296 | cobertos= 55.66% | rescores=     6,513,713 | t=8s
+    |SB|=   208,012 | cobertos= 62.52% | rescores=     7,416,649 | t=9s
+    |SB|=   237,728 | cobertos= 68.66% | rescores=     8,260,728 | t=10s
+    |SB|=   267,444 | cobertos= 74.14% | rescores=     9,109,164 | t=11s
+    |SB|=   297,160 | cobertos= 79.00% | rescores=     9,989,520 | t=13s
+    |SB|=   326,876 | cobertos= 83.31% | rescores=    10,769,525 | t=14s
+    |SB|=   356,592 | cobertos= 87.12% | rescores=    11,501,792 | t=15s
+    |SB|=   386,308 | cobertos= 90.45% | rescores=    12,193,739 | t=15s
+    |SB|=   416,024 | cobertos= 93.15% | rescores=    12,777,304 | t=16s
+    |SB|=   445,740 | cobertos= 95.47% | rescores=    13,532,738 | t=17s
+    |SB|=   475,456 | cobertos= 97.47% | rescores=    14,219,899 | t=18s
+    |SB|=   505,172 | cobertos= 98.80% | rescores=    14,692,187 | t=18s
+    |SB|=   534,888 | cobertos= 99.81% | rescores=    15,535,666 | t=19s
+    |SB|=   543,521 | cobertos=100.00% | rescores=    16,271,245 | t=20s
+
+  --------------------------------------------------
+  RESULTADO -- Programa 2 (cobertura de 14):
+    |SB_{15,14}|       = 543,521
+    Limite inferior    = 297,160
+    Razao SB/LB        = 1.83x
+    Cobertos           = 4,457,400/4,457,400
+    Total de rescores  = 16,271,245
+    Tempo total        = 20.5s
+  --------------------------------------------------
+  Verificando... OK -- todas as 4,457,400 combinacoes cobertas!
+
+  Amostra (primeiros 3 conjuntos):
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 17, 19]
+
+
+============================================================
+  PROGRAMA 3 -- Cobertura de 13 elementos
+============================================================
+  |S_13| = C(25,13) = 5,200,300 alvos
+  Cada X em S15 cobre C(15,13) = 105 alvos
+  Limite inferior teorico: ceil(5,200,300/105) = 49,527
+  Bits desligados por submascara: 2
+  Gerando alvos... OK (0.4s)
+  Inicializando heap (3,268,760 candidatos)...
+  Selecao gulosa...
+
+    |SB|=     4,952 | cobertos= 10.00% | rescores=     3,303,023 | t=18s
+    |SB|=     9,904 | cobertos= 19.58% | rescores=     6,211,255 | t=39s
+    |SB|=    14,856 | cobertos= 28.50% | rescores=     8,291,753 | t=55s
+    |SB|=    19,808 | cobertos= 36.76% | rescores=    10,365,009 | t=72s
+    |SB|=    24,760 | cobertos= 44.37% | rescores=    12,087,813 | t=86s
+    |SB|=    29,712 | cobertos= 51.34% | rescores=    13,537,287 | t=99s
+    |SB|=    34,664 | cobertos= 57.70% | rescores=    14,858,412 | t=111s
+    |SB|=    39,616 | cobertos= 63.46% | rescores=    16,117,599 | t=122s
+    |SB|=    44,568 | cobertos= 68.63% | rescores=    17,301,214 | t=133s
+    |SB|=    49,520 | cobertos= 73.26% | rescores=    18,393,098 | t=143s
+    |SB|=    54,472 | cobertos= 77.36% | rescores=    19,473,603 | t=153s
+    |SB|=    59,424 | cobertos= 80.97% | rescores=    20,475,174 | t=161s
+    |SB|=    64,376 | cobertos= 84.13% | rescores=    21,489,920 | t=169s
+    |SB|=    69,328 | cobertos= 86.89% | rescores=    22,435,288 | t=177s
+    |SB|=    74,280 | cobertos= 89.27% | rescores=    23,332,504 | t=184s
+    |SB|=    79,232 | cobertos= 91.33% | rescores=    24,207,221 | t=190s
+    |SB|=    84,184 | cobertos= 93.09% | rescores=    25,051,721 | t=197s
+    |SB|=    89,136 | cobertos= 94.59% | rescores=    25,839,748 | t=202s
+    |SB|=    94,088 | cobertos= 95.85% | rescores=    26,645,218 | t=208s
+    |SB|=    99,040 | cobertos= 96.90% | rescores=    27,444,789 | t=214s
+    |SB|=   103,992 | cobertos= 97.77% | rescores=    28,175,252 | t=218s
+    |SB|=   108,944 | cobertos= 98.48% | rescores=    28,795,058 | t=223s
+    |SB|=   113,896 | cobertos= 99.04% | rescores=    29,627,534 | t=228s
+    |SB|=   118,848 | cobertos= 99.47% | rescores=    30,333,409 | t=233s
+    |SB|=   123,800 | cobertos= 99.79% | rescores=    30,954,941 | t=237s
+    |SB|=   128,752 | cobertos= 99.99% | rescores=    32,253,950 | t=245s
+    |SB|=   129,306 | cobertos=100.00% | rescores=    32,513,821 | t=247s
+
+  --------------------------------------------------
+  RESULTADO -- Programa 3 (cobertura de 13):
+    |SB_{15,13}|       = 129,306
+    Limite inferior    = 49,527
+    Razao SB/LB        = 2.61x
+    Cobertos           = 5,200,300/5,200,300
+    Total de rescores  = 32,513,821
+    Tempo total        = 247.6s
+  --------------------------------------------------
+  Verificando... OK -- todas as 5,200,300 combinacoes cobertas!
+
+  Amostra (primeiros 3 conjuntos):
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 25]
+
+
+============================================================
+  PROGRAMA 4 -- Cobertura de 12 elementos
+============================================================
+  |S_12| = C(25,12) = 5,200,300 alvos
+  Cada X em S15 cobre C(15,12) = 455 alvos
+  Limite inferior teorico: ceil(5,200,300/455) = 11,430
+  Bits desligados por submascara: 3
+  Gerando alvos... OK (0.4s)
+  Inicializando heap (3,268,760 candidatos)...
+  Selecao gulosa...
+
+    |SB|=     1,143 | cobertos=  9.91% | rescores=     5,548,817 | t=139s
+    |SB|=     2,286 | cobertos= 19.33% | rescores=     9,089,650 | t=247s
+    |SB|=     3,429 | cobertos= 28.17% | rescores=    11,490,641 | t=327s
+    |SB|=     4,572 | cobertos= 36.32% | rescores=    13,535,594 | t=398s
+    |SB|=     5,715 | cobertos= 43.74% | rescores=    15,492,116 | t=470s
+    |SB|=     6,858 | cobertos= 50.46% | rescores=    17,216,187 | t=535s
+    |SB|=     8,001 | cobertos= 56.52% | rescores=    18,886,975 | t=601s
+    |SB|=     9,144 | cobertos= 61.96% | rescores=    20,451,378 | t=664s
+    |SB|=    10,287 | cobertos= 66.82% | rescores=    21,948,782 | t=723s
+    |SB|=    11,430 | cobertos= 71.16% | rescores=    23,349,834 | t=777s
+    |SB|=    12,573 | cobertos= 75.02% | rescores=    24,658,917 | t=826s
+    |SB|=    13,716 | cobertos= 78.45% | rescores=    25,977,318 | t=874s
+    |SB|=    14,859 | cobertos= 81.47% | rescores=    27,208,211 | t=919s
+    |SB|=    16,002 | cobertos= 84.13% | rescores=    28,355,753 | t=958s
+    |SB|=    17,145 | cobertos= 86.47% | rescores=    29,489,472 | t=997s
+    |SB|=    18,288 | cobertos= 88.52% | rescores=    30,596,523 | t=1034s
+    |SB|=    19,431 | cobertos= 90.32% | rescores=    31,633,195 | t=1067s
+    |SB|=    20,574 | cobertos= 91.88% | rescores=    32,661,848 | t=1100s
+    |SB|=    21,717 | cobertos= 93.23% | rescores=    33,658,812 | t=1131s
+    |SB|=    22,860 | cobertos= 94.40% | rescores=    34,563,994 | t=1158s
+    |SB|=    24,003 | cobertos= 95.40% | rescores=    35,487,764 | t=1186s
+    |SB|=    25,146 | cobertos= 96.26% | rescores=    36,377,826 | t=1213s
+    |SB|=    26,289 | cobertos= 96.99% | rescores=    37,203,398 | t=1237s
+    |SB|=    27,432 | cobertos= 97.61% | rescores=    38,067,273 | t=1262s
+    |SB|=    28,575 | cobertos= 98.13% | rescores=    38,845,065 | t=1284s
+    |SB|=    29,718 | cobertos= 98.57% | rescores=    39,676,343 | t=1308s
+    |SB|=    30,861 | cobertos= 98.93% | rescores=    40,438,312 | t=1330s
+    |SB|=    32,004 | cobertos= 99.23% | rescores=    41,241,896 | t=1352s
+    |SB|=    33,147 | cobertos= 99.47% | rescores=    41,881,807 | t=1370s
+    |SB|=    34,290 | cobertos= 99.66% | rescores=    42,589,687 | t=1389s
+    |SB|=    35,433 | cobertos= 99.80% | rescores=    43,373,468 | t=1411s
+    |SB|=    36,576 | cobertos= 99.91% | rescores=    44,246,288 | t=1435s
+    |SB|=    37,719 | cobertos= 99.98% | rescores=    45,207,209 | t=1461s
+    |SB|=    38,222 | cobertos=100.00% | rescores=    46,036,815 | t=1484s
+
+  --------------------------------------------------
+  RESULTADO -- Programa 4 (cobertura de 12):
+    |SB_{15,12}|       = 38,222
+    Limite inferior    = 11,430
+    Razao SB/LB        = 3.34x
+    Cobertos           = 5,200,300/5,200,300
+    Total de rescores  = 46,036,815
+    Tempo total        = 1484.7s
+  --------------------------------------------------
+  Verificando... OK -- todas as 5,200,300 combinacoes cobertas!
+
+  Amostra (primeiros 3 conjuntos):
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 16, 18, 23, 24]
+
+
+============================================================
+  PROGRAMA 5 -- Cobertura de 11 elementos
+============================================================
+  |S_11| = C(25,11) = 4,457,400 alvos
+  Cada X em S15 cobre C(15,11) = 1365 alvos
+  Limite inferior teorico: ceil(4,457,400/1365) = 3,266
+  Bits desligados por submascara: 4
+  Gerando alvos... OK (0.3s)
+  Inicializando heap (3,268,760 candidatos)...
+  Selecao gulosa...
+
+    |SB|=       326 | cobertos=  9.88% | rescores=     6,920,373 | t=593s
+    |SB|=       652 | cobertos= 19.26% | rescores=    10,436,608 | t=953s
+    |SB|=       978 | cobertos= 27.94% | rescores=    13,168,908 | t=1252s
+    |SB|=     1,304 | cobertos= 35.91% | rescores=    15,515,028 | t=1521s
+    |SB|=     1,630 | cobertos= 43.19% | rescores=    17,610,148 | t=1765s
+    |SB|=     1,956 | cobertos= 49.80% | rescores=    19,503,821 | t=2012s
+    |SB|=     2,282 | cobertos= 55.78% | rescores=    21,205,513 | t=2245s
+    |SB|=     2,608 | cobertos= 61.16% | rescores=    22,857,131 | t=2473s
+    |SB|=     2,934 | cobertos= 65.99% | rescores=    24,393,980 | t=2685s
+    |SB|=     3,260 | cobertos= 70.30% | rescores=    25,893,947 | t=2890s
+    |SB|=     3,586 | cobertos= 74.13% | rescores=    27,342,176 | t=3085s
+    |SB|=     3,912 | cobertos= 77.53% | rescores=    28,675,469 | t=3261s
+    |SB|=     4,238 | cobertos= 80.54% | rescores=    30,005,556 | t=3434s
+    |SB|=     4,564 | cobertos= 83.19% | rescores=    31,272,750 | t=3593s
+    |SB|=     4,890 | cobertos= 85.52% | rescores=    32,516,310 | t=3744s
+    |SB|=     5,216 | cobertos= 87.56% | rescores=    33,740,101 | t=3890s
+    |SB|=     5,542 | cobertos= 89.34% | rescores=    34,915,949 | t=4028s
+    |SB|=     5,868 | cobertos= 90.91% | rescores=    36,034,281 | t=4157s
+    |SB|=     6,194 | cobertos= 92.27% | rescores=    37,125,128 | t=4281s
+    |SB|=     6,520 | cobertos= 93.45% | rescores=    38,227,583 | t=4403s
+    |SB|=     6,846 | cobertos= 94.47% | rescores=    39,261,205 | t=4520s
+    |SB|=     7,172 | cobertos= 95.35% | rescores=    40,306,804 | t=4630s
+    |SB|=     7,498 | cobertos= 96.12% | rescores=    41,278,625 | t=4732s
+    |SB|=     7,824 | cobertos= 96.77% | rescores=    42,240,629 | t=4838s
+    |SB|=     8,150 | cobertos= 97.33% | rescores=    43,178,107 | t=4931s
+    |SB|=     8,476 | cobertos= 97.81% | rescores=    44,097,297 | t=5017s
+    |SB|=     8,802 | cobertos= 98.22% | rescores=    44,960,908 | t=5093s
+    |SB|=     9,128 | cobertos= 98.56% | rescores=    45,824,704 | t=5170s
+    |SB|=     9,454 | cobertos= 98.85% | rescores=    46,673,511 | t=5248s
+    |SB|=     9,780 | cobertos= 99.10% | rescores=    47,477,836 | t=5318s
+    |SB|=    10,106 | cobertos= 99.30% | rescores=    48,262,187 | t=5386s
+    |SB|=    10,432 | cobertos= 99.47% | rescores=    49,080,850 | t=5457s
+    |SB|=    10,758 | cobertos= 99.61% | rescores=    49,873,092 | t=5525s
+    |SB|=    11,084 | cobertos= 99.72% | rescores=    50,560,075 | t=5584s
+    |SB|=    11,410 | cobertos= 99.81% | rescores=    51,336,098 | t=5651s
+    |SB|=    11,736 | cobertos= 99.88% | rescores=    52,071,806 | t=5714s
+    |SB|=    12,062 | cobertos= 99.94% | rescores=    52,848,517 | t=5780s
+    |SB|=    12,388 | cobertos= 99.97% | rescores=    53,669,145 | t=5848s
+    |SB|=    12,714 | cobertos=100.00% | rescores=    54,711,229 | t=5936s
+    |SB|=    12,764 | cobertos=100.00% | rescores=    55,404,309 | t=5995s
+
+  --------------------------------------------------
+  RESULTADO -- Programa 5 (cobertura de 11):
+    |SB_{15,11}|       = 12,764
+    Limite inferior    = 3,266
+    Razao SB/LB        = 3.91x
+    Cobertos           = 4,457,400/4,457,400
+    Total de rescores  = 55,404,309
+    Tempo total        = 5994.9s
+  --------------------------------------------------
+  Verificando... OK -- todas as 4,457,400 combinacoes cobertas!
+
+  Amostra (primeiros 3 conjuntos):
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+    [1, 2, 3, 4, 5, 6, 7, 10, 11, 13, 16, 17, 22, 23, 24]
+
+============================================================
+  CONCLUIDO
+============================================================
+
